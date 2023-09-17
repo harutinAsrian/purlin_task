@@ -1,13 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@layer base {
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.flexBetween {
+  @apply flex justify-between items-center;
+}
+
+.flexStart {
+  @apply flex items-center justify-start;
+}
+
+.flexCol {
+  @apply flex flex-col;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.customSlider {
+  max-width: 300px;
+  margin: auto;
+}
+
+.customSlider-track {
+  height: 16px;
+  background: #374151;
+}
+
+.customSlider-track.customSlider-track-0 {
+  background: #14532d;
+}
+
+.customSlider-thumb {
+  cursor: pointer;
+  background: #ff3d3d;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  outline: none;
+  transform: translateY(-25%);
+}
+
+.customSlider-mark.customSlider-mark-before {
+  background-color: var(--main-color);
+}
+
+.customSlider-mark.customSlider-mark-active {
+  display: none;
+}
+
+.slick-prev {
+  left: 25px;
+  z-index: 10;
+}
+
+.slick-next {
+  right: 25px;
+  z-index: 10;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 28px;
 }

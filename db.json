@@ -1,0 +1,274 @@
+{
+  "listings": [
+    {
+      "id": "1",
+      "listing_type": "buy",
+      "price": 250000,
+      "currency": "$",
+      "short_description": "Cozy 2-bedroom apartment in downtown",
+      "long_description": "This cozy 2-bedroom apartment is located in the heart of downtown. It features spacious rooms, modern amenities, and a great view of the city. Ideal for urban living.",
+      "address": "123 Main Street, Cityville, State",
+      "location": {
+        "latitude": 40.179188,
+        "longitude": 44.499104
+      },
+      "property_type": "Apartment",
+      "agent": {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1616537937163-387d3f079de8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NDc0NTQyMzV8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1613618902610-95d88084ee11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8NDc0NTQyMzV8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1616594266774-769089710d76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NDc0NTQyMzV8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "2",
+      "sqft": 1200
+    },
+    {
+      "id": "2",
+      "listing_type": "buy",
+      "price": 420000,
+      "currency": "$",
+      "short_description": "Spacious 4-bedroom family home with a garden",
+      "long_description": "This spacious 4-bedroom family home is perfect for those seeking a peaceful suburban life. It comes with a beautiful garden, ample storage, and modern appliances.",
+      "address": "456 Elm Street, Suburbia, State",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "property_type": "House",
+      "agent": {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "phone": "+1 (555) 987-6543"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1535230387253-9cd5be991a86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1609741893026-6177a6c4ecc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8NDc0NTQyMzV8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "4",
+      "sqft": 2500
+    },
+    {
+      "id": "3",
+      "listing_type": "rent",
+      "price": 1500,
+      "currency": "$",
+      "short_description": "Modern 1-bedroom apartment for rent",
+      "long_description": "This modern 1-bedroom apartment is available for rent. It includes contemporary furnishings, a fully equipped kitchen, and access to building amenities.",
+      "address": "789 Oak Avenue, Urban Plaza, State",
+      "location": {
+        "latitude": 52.370216,
+        "longitude": 4.895168
+      },
+      "property_type": "Apartment",
+      "agent": {
+        "name": "Emily Brown",
+        "email": "emilybrown@example.com",
+        "phone": "+1 (555) 567-8901"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1604851880472-376ce53d3244?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Nnw0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1606583740585-a61d8d0aea34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1621328778483-77056460b842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "1",
+      "sqft": 800
+    },
+    {
+      "id": "4",
+      "listing_type": "buy",
+      "price": 350000,
+      "currency": "$",
+      "short_description": "Charming 3-bedroom cottage by the lake",
+      "long_description": "This charming 3-bedroom cottage is nestled by the lake, offering stunning views and a tranquil atmosphere. Perfect for a lakeside retreat.",
+      "address": "123 Lakeview Drive, Lakeside, State",
+      "location": {
+        "latitude": 64.147209,
+        "longitude": -21.9424
+      },
+      "property_type": "Cottage",
+      "agent": {
+        "name": "Michael Anderson",
+        "email": "michaelanderson@example.com",
+        "phone": "+1 (555) 987-6543"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1598228723793-52759bba239c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1586798271399-1a410b7dd9fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1517414628894-83d47b22f233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w0NzQ1NDIzNXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "3",
+      "sqft": 1800
+    },
+    {
+      "id": "5",
+      "listing_type": "buy",
+      "price": 480000,
+      "currency": "$",
+      "short_description": "Luxurious 5-bedroom mansion with a pool",
+      "long_description": "This luxurious 5-bedroom mansion boasts a spacious interior, a private pool, and beautifully landscaped grounds. A dream home for luxury living.",
+      "address": "456 Mansion Drive, Prestigeville, State",
+      "location": {
+        "latitude": 48.856613,
+        "longitude": 2.352222
+      },
+      "property_type": "Mansion",
+      "agent": {
+        "name": "Sarah Williams",
+        "email": "sarahwilliams@example.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8SG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1602595688238-9fffe12d5af3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://plus.unsplash.com/premium_photo-1686090448517-2f692cc45187?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "5",
+      "sqft": 3500
+    },
+    {
+      "id": "6",
+      "listing_type": "rent",
+      "price": 2000,
+      "currency": "$",
+      "short_description": "Furnished 2-bedroom apartment for rent",
+      "long_description": "This furnished 2-bedroom apartment is available for rent. It includes modern furnishings, a balcony with city views, and convenient access to public transportation.",
+      "address": "789 Elm Street, Metroville, State",
+      "location": {
+        "latitude": 43.738419,
+        "longitude": 7.424616
+      },
+      "property_type": "Apartment",
+      "agent": {
+        "name": "David Johnson",
+        "email": "davidjohnson@example.com",
+        "phone": "+1 (555) 567-8901"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1486946255434-2466348c2166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://plus.unsplash.com/premium_photo-1674676471380-1258cb31b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://plus.unsplash.com/premium_photo-1678402544927-ba1a7c74a23c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "2",
+      "sqft": 1300
+    },
+    {
+      "id": "7",
+      "listing_type": "buy",
+      "price": 320000,
+      "currency": "$",
+      "short_description": "Quaint 2-bedroom townhouse in a peaceful neighborhood",
+      "long_description": "This quaint 2-bedroom townhouse is located in a peaceful neighborhood. It features a private backyard, ideal for relaxation and outdoor activities.",
+      "address": "123 Oak Lane, Tranquilville, State",
+      "location": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "property_type": "Townhouse",
+      "agent": {
+        "name": "Linda Rodriguez",
+        "email": "lindarodriguez@example.com",
+        "phone": "+1 (555) 987-6543"
+      },
+      "image_urls": [
+        "https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1473893604213-3df9c15611c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://plus.unsplash.com/premium_photo-1674676471380-1258cb31b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvb218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "https://plus.unsplash.com/premium_photo-1678402544927-ba1a7c74a23c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "2",
+      "sqft": 1100
+    },
+    {
+      "id": "8",
+      "listing_type": "rent",
+      "price": 1800,
+      "currency": "$",
+      "short_description": "Modern studio apartment for rent",
+      "long_description": "This modern studio apartment is available for rent. It offers a comfortable living space, a fully equipped kitchen, and easy access to shopping and dining.",
+      "address": "456 Maple Avenue, Cityscape, State",
+      "location": {
+        "latitude": 45.5231,
+        "longitude": -122.6765
+      },
+      "property_type": "Apartment",
+      "agent": {
+        "name": "Maria Hernandez",
+        "email": "mariahernandez@example.com",
+        "phone": "+1 (555) 567-8901"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "1",
+      "sqft": 600
+    },
+    {
+      "id": "9",
+      "listing_type": "buy",
+      "price": 290000,
+      "currency": "$",
+      "short_description": "Cozy 3-bedroom cottage with a garden",
+      "long_description": "This cozy 3-bedroom cottage features a lovely garden and a charming interior. It's the perfect place to enjoy nature and tranquility.",
+      "address": "789 Garden Lane, Greenfield, State",
+      "location": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "property_type": "Cottage",
+      "agent": {
+        "name": "James Smith",
+        "email": "jamessmith@example.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "3",
+      "sqft": 1400
+    },
+    {
+      "id": "10",
+      "listing_type": "rent",
+      "price": 1700,
+      "currency": "$",
+      "short_description": "Spacious 4-bedroom house for rent",
+      "long_description": "This spacious 4-bedroom house is available for rent. It offers ample living space, a large backyard, and is conveniently located near schools and parks.",
+      "address": "123 Parkside Drive, Familyville, State",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "property_type": "House",
+      "agent": {
+        "name": "Robert Davis",
+        "email": "robertdavis@example.com",
+        "phone": "+1 (555) 567-8901"
+      },
+      "image_urls": [
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://plus.unsplash.com/premium_photo-1678752717095-08cd0bd1d7e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "beds": "4",
+      "sqft": 2600
+    }
+  ]
+}
