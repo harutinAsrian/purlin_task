@@ -1,3 +1,5 @@
+import { FC } from 'react';
+
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -5,7 +7,6 @@ import {
   Outlet,
   Route,
   RouterProvider,
-  Routes,
 } from 'react-router-dom';
 import Header from 'src/components/Header';
 import Filters from 'src/components/Filters';
@@ -13,16 +14,12 @@ import Sell from 'src/pages/Sell';
 import PropertyDetail from 'src/pages/PropertyDetailPage';
 import Client from 'src/pages/Client';
 
-import { FC } from 'react';
-
-const Layout: FC = () => {
-  return (
-    <>
-      <Header />
-      <Outlet />
-    </>
-  );
-};
+const Layout: FC = () => (
+  <>
+    <Header />
+    <Outlet />
+  </>
+);
 
 const routes = createRoutesFromElements(
   <Route element={<Layout />}>

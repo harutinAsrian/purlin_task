@@ -24,7 +24,10 @@ function Map({ center }: { center: LatLngExpression }) {
       />
 
       {filteredProperties.map((item) => (
-        <Marker position={[item.location?.latitude!, item.location?.longitude!]} key={item.id}>
+        <Marker
+          position={item.location?.latitude ? [item.location?.latitude, item.location?.longitude] : [0, 0]}
+          key={item.id}
+        >
           <Popup>
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
@@ -40,7 +43,11 @@ const LeaflatMap = () => {
 
   useEffect(() => {
     if (typeof selectedProperty === 'object' && 'id' in selectedProperty) {
-      setCenter([selectedProperty.location?.latitude!, selectedProperty.location?.longitude!]);
+      setCenter(
+        selectedProperty.location?.latitude
+          ? [selectedProperty.location?.latitude, selectedProperty.location?.longitude]
+          : [0, 0],
+      );
     }
   }, [selectedProperty]);
 

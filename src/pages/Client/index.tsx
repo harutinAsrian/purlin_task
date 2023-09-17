@@ -8,9 +8,9 @@ import { PropertyOfferType } from 'src/types/enum';
 import { useParams } from 'react-router-dom';
 import { filterPropertiesByOfferType } from 'src/utils/filterPropertiesByOfferType';
 import { propertyOfferTypeAtom } from 'src/state/propertyOfferType';
+import { editingItemIdAtom, isRemovedAtom } from 'src/state/itemState';
 
 import PropertyList from '../../components/Property/PropertyList';
-import { editingItemIdAtom, isRemovedAtom } from 'src/state/itemState';
 
 const Client = () => {
   const [allProperties, setAllProperties] = useAtom(allPropertiesAtom);

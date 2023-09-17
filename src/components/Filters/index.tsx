@@ -1,8 +1,9 @@
 import { useAtom } from 'jotai';
-import RangeInput from './RangeInput';
-import Search from './Search';
 import { userRoleAtom } from 'src/state/userRole';
 import { UserRole } from 'src/types/enum';
+
+import Search from './Search';
+import RangeInput from './RangeInput';
 
 const Filters = () => {
   const [userRole, setUserRole] = useAtom(userRoleAtom);

@@ -1,20 +1,21 @@
+import { useEffect } from 'react';
+
+import { useAtom } from 'jotai';
 import { useForm } from 'react-hook-form';
 import { Listing } from 'src/types';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { v4 as uuidv4 } from 'uuid';
-
-import propertySchema from './constants/validationSchema';
+import { updateItemById } from 'src/utils/updateItemById';
 import { postDataToServer } from 'src/utils/postDataToServer';
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
-import { useAtom } from 'jotai';
 import { editingItemIdAtom } from 'src/state/itemState';
 import { allPropertiesAtom } from 'src/state/allProperties';
-import { updateItemById } from 'src/utils/updateItemById';
+
+import propertySchema from './constants/validationSchema';
 
 const Form = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const [editingItemId] = useAtom(editingItemIdAtom);
   const [allProperties] = useAtom(allPropertiesAtom);
 
@@ -52,10 +53,8 @@ const Form = () => {
     const editingItem = allProperties.find((property) => property.id === editingItemId);
 
     for (const key in editingItem) {
-      if (editingItem.hasOwnProperty(key)) {
-        const validKey = key as keyof Listing;
-        setValue(validKey, editingItem[validKey]);
-      }
+      const validKey = key as keyof Listing;
+      setValue(validKey, editingItem[validKey]);
     }
   }, [editingItemId]);
 
