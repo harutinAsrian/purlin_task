@@ -4,13 +4,12 @@ This is a brief description of this React project.
 
 ## To start the React app, run:
 
-yarn server
-yarn client
+yarn server and yarn client
 
 To get a local copy up and running, copy this repo:
 
 ```bash
-git clone https://github.com/your-username/your-react-project.git
+git clone https://github.com/harutinAsrian/purlin_task.git
 ```
 
 ## Note on Project Quality
